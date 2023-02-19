@@ -2,10 +2,7 @@
 
 In order to run the code, make sure to install the following libraries: 
 ```bash
-pip install tensorflow
-pip install pandas
-pip install seaborn
-pip install matplotlib
+pip install tensorflow pandas matplotlib seaborn
 ```
 
 Code for preprocessing, modelling, testing and visualisation is available in the `main.ipynb` file. This file also contains explanation about preprocessing and model architecture.
