@@ -54,7 +54,7 @@ dataset[categorical_variables] = dataset[categorical_variables].astype('string')
 x = dataset.drop(columns=response_variable)
 
 # load model and calculate predictions
-model = tf.keras.models.load_model("model")
+model = tf.keras.models.load_model("model/1")
 y_predictions = model.predict([x[numerical_variables],
                                x[categorical_variables]],
                               verbose=0).flatten()
